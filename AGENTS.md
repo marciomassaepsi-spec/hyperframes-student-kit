@@ -21,6 +21,14 @@ Use o Opus 5.5 para tarefas mais simples.
 - Execute subagentes independentes em paralelo.
 - Leia o relatório, nunca os arquivos.
 
+### Exceções (o agente principal faz direto)
+
+- Ajustes pequenos e rápidos: mover, aumentar ou trocar um texto, uma cor ou uma posição num slide ou vídeo já pronto. Delegar custaria mais tempo e contexto do que fazer.
+- Conferência visual: o agente principal sempre olha os PNGs e os quadros renderizados antes de entregar (texto saindo da caixa, palavra cortada, rosto de criança ou paciente visível, contraste). Só o relatório não basta.
+- Conferência de cortes e falas: transcrição final e checagem das bordas de áudio são lidas pelo agente principal.
+- Conversa com o Márcio, aprovações e decisões de estilo ficam com o agente principal.
+- Pesquisas e resumos usam o Haiku mais recente disponível quando o 4.5 não estiver na lista de modelos.
+
 ## Runtime routing
 
 `AGENTS.md` and `CLAUDE.md` contain the same standing guide. Keep them synchronized.
