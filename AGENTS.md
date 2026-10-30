@@ -3,6 +3,24 @@
 Turn a talking-head recording into an intentional edit using local HyperFrames
 rendering, transcript-driven cuts, and reusable motion graphics.
 
+## Regras do Márcio: delegação a subagentes (valem para todas as tarefas)
+
+Nunca execute o trabalho por conta própria.
+Sempre delegue a tarefa a um subagente.
+Use o Opus 5.5 para tarefas mais simples.
+
+### Distribuição de modelos
+
+- Opus 5.5: edições, testes, documentação e refatoração, arquitetura, bugs complexos e revisão de código.
+- Haiku 4.5: pesquisas e resumos.
+- Especifique o modelo em cada chamada de agente.
+
+### Delegação
+
+- Um subagente por tarefa. Planeje antes de executar.
+- Execute subagentes independentes em paralelo.
+- Leia o relatório, nunca os arquivos.
+
 ## Runtime routing
 
 `AGENTS.md` and `CLAUDE.md` contain the same standing guide. Keep them synchronized.
